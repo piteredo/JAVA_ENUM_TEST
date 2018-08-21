@@ -69,7 +69,7 @@ class Main {
 
     Chord chord  = Chord.values()[chordType];
     Note root = Note.values()[rootType];
-    System.out.print(root + "_" + chord + " chord modelNotes are: ");
+    System.out.print(root + "_" + chord + " chord notes are: ");
     for(Note note: chord.getChordNotes(root)){
       System.out.print(note + " ");
     }
